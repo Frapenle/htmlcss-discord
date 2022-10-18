@@ -18,6 +18,13 @@ h2 {
     padding: 1rem 0;
 }
 
+p {
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -148,13 +155,6 @@ ul {
 .header-bottom-info {
     width: 50%;
     height: 250px;
-}
-
-header p {
-    padding-bottom: 1.5rem;
-    font-size: 1.3rem;
-    font-weight: 300;
-    line-height: 2rem;
 }
 
 .header-bottom-info>a {
