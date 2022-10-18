@@ -13,6 +13,11 @@ h1 {
     padding: 1.5rem 0;
 }
 
+h2 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -22,6 +27,7 @@ ul {
     list-style: none;
 }
 
+/* flex */
 .flex {
     display: flex;
 }
@@ -32,9 +38,10 @@ ul {
 }
 
 .bg-grey {
-    background-color: gray;
+    background-color: rgb(199, 199, 199);
 }
 
+/* button style */
 .button {
     background-color: grey;
     padding: 0.5rem 1.3rem;
@@ -61,6 +68,17 @@ ul {
     color: white;
     cursor: pointer;
 }
+
+.btn-light-blue {
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #8FA1E1;
+    color: white;
+    cursor: pointer;
+}
+/* /button style */
 
 .container {
     margin: 0 auto;
@@ -150,47 +168,28 @@ header p {
 
 /* main */
 main{
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-content {
     width: 100%;
-    padding: 50px 0;
-    height: 350px;
-    display: flex;
+    padding: 60px 0;
 }
 
-.img{
-    width: 60%;
-    background-color: cyan;
-    height: 100%;
-    border: 2px dotted black;
+.main-content > div.container{
+    justify-content: space-between;
 }
 
-.info-img{
-    background-color: lightpink;
-    height: 100%;
-    width: 40%;
-    border: 2px dotted black;
+.info-img {
+    width: 30%;
 }
 
 /* section full width */
 .container-full-width{
-    background-color: grey;
+    background-color: rgb(199, 199, 199);
     width: 100%;
     padding: 20px 0;
-
-}
-
-.full-width{
-    width: 80%;
-    background-color: green;
-    height: 600px;
-    margin: 0 auto;
-    border: 2px dotted black;
+    text-align: center;
 }
 
 /* footer */
