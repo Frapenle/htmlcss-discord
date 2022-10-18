@@ -15,7 +15,6 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    padding: 1rem 0;
 }
 
 p {
@@ -52,8 +51,6 @@ ul {
 .button {
     background-color: grey;
     padding: 0.5rem 1.3rem;
-    border: 2px dotted black;
-    background-color: pink;
 }
 
 .btn-white {
@@ -185,16 +182,24 @@ main{
 }
 
 /* section full width */
-.container-full-width{
+.container-full-width {
     background-color: rgb(199, 199, 199);
     width: 100%;
-    padding: 20px 0 60px;
+    padding: 20px 0 120px;
     text-align: center;
+}
+
+.container-full-width .btn-light-blue::before  {
+    content: "\2193";
+    padding-right: 0.4rem;
+}
+
+.container-full-width h2 {
+    padding-bottom: 50px;
 }
 
 /* footer */
 footer {
-    height: 600px;
     background-color: rgb(58, 58, 58);
     color: white;
     padding-top: 3rem;
@@ -205,24 +210,30 @@ footer h3 {
     color: #7189DA;
 }
 
-.top-footer {
-    height: 85%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4px;
-}
-
 .footer-social {
     padding-right: 4rem;
     height: 85%;
+}
+
+.footer-social > h2 {
+    padding-bottom: 1rem;
 }
 
 .footer-social>.language::before {
     content: url(../img/ita.png);
     /*          !background-size non funziona             */
     zoom: 40%;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     vertical-align: middle;
+}
+
+.footer-social>.language::after {
+    content: url(../img/down-arrow.png);
+    /*          !background-size non funziona             */
+    zoom: 3%;
+    margin-left: 8rem;
+    vertical-align: middle;
+    filter: invert(1);
 }
 
 .footer-social>ul {
@@ -267,8 +278,10 @@ footer h3 {
 
 /*          bottom footer             */
 .bottom-footer {
+    border-top:2px solid #8FA1E1;
     justify-content: space-between;
     padding-top: 10px;
+    align-items: center;
 }
 
 .footer-contacts ul>li {
@@ -276,10 +289,6 @@ footer h3 {
 }
 
 footer .logo {
-    background-color: pink;
-    padding: 0.5rem 1.3rem;
-    border: 2px dotted black;
+    padding: 0.5rem 0;
+    height: 100%;
 }
-
-
-
