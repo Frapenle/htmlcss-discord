@@ -188,7 +188,7 @@ main{
 .container-full-width{
     background-color: rgb(199, 199, 199);
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 60px;
     text-align: center;
 }
 
@@ -196,42 +196,83 @@ main{
 footer {
     height: 600px;
     background-color: rgb(58, 58, 58);
+    color: white;
+    padding-top: 3rem;
 }
 
-.top-footer{
-    display: flex;
+footer h2,
+footer h3 {
+    color: #7189DA;
+}
+
+.top-footer {
     height: 85%;
     justify-content: center;
     align-items: center;
     margin-bottom: 4px;
 }
 
-.footer-social{
-    width: 400px;
+.footer-social {
+    padding-right: 4rem;
     height: 85%;
-    background-color: pink;
-    border: 2px dotted black;
+}
+
+.footer-social>.language::before {
+    content: url(../img/ita.png);
+    /*          !background-size non funziona             */
+    zoom: 40%;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.footer-social>ul {
+    width: 60%;
+    margin-top: 0.8rem;
+}
+
+.twitter {
+    content: url(../img/twitter.png);
+    width: 1.5rem;
+    filter: invert(1);
+}
+
+.instagram {
+    content: url(../img/twitter.png);
+    width: 1.5rem;
+    filter: invert(1);
+}
+
+.facebook {
+    content: url(../img/twitter.png);
+    width: 1.5rem;
+    filter: invert(1);
+}
+
+.youtube {
+    content: url(../img/twitter.png);
+    width: 1.5rem;
+    filter: invert(1);
 }
 
 .footer-contacts {
-    display:flex;
     width: 100%;
     height: 85%;
-    background-color: cyan;
 }
 
 .footer-contacts>* {
-    background-color: cyan;
     width: calc(100% - 400px);
-    border: 2px dotted white;
     flex-grow: 1;
     flex-shrink: 1;
 }
-/* bottom footer */
+
+/*          bottom footer             */
 .bottom-footer {
-    display: flex;
     justify-content: space-between;
     padding-top: 10px;
+}
+
+.footer-contacts ul>li {
+    padding: 0.3rem 0;
 }
 
 footer .logo {
@@ -239,3 +280,6 @@ footer .logo {
     padding: 0.5rem 1.3rem;
     border: 2px dotted black;
 }
+
+
+
