@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+.bg-grey {
+    background-color: gray;
+}
+
+.button {
+    background-color: grey;
+    padding: 0.5rem 1.3rem;
+    border: 2px dotted black;
+    background-color: pink;
+}
+
+/* header */
+header{
+    height: 50vh;
+    background-color: #00008B;
+    margin-bottom: 3rem;
+}
+
+.header-top {
+    height: 80px;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top-info{
+    background-color: #DAA521;
+    width: 80%;
+    height: 45px;
+    display: flex;
+    border: 2px dotted black;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo,
+header .login {
+    line-height: 45px;
+    width: 25%;
+    border: 2px dotted black;
+}
+
+header .menu{
+    line-height: 45px;
+    width: 50%;
+    border: 2px dotted black;
+    text-align: center;
+}
+
+header .login{
+    text-align: right;
+}
+
+/* header bottom */
+.header-bottom {
+    height: calc(50vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom-info {
+    width: 800px;
+    height: 250px;
+    background-color: pink;
+    border: 2px dotted black;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    width: 100%;
+    padding: 50px 0;
+    height: 350px;
+    display: flex;
+}
+
+.img{
+    width: 60%;
+    background-color: cyan;
+    height: 100%;
+    border: 2px dotted black;
+}
+
+.info-img{
+    background-color: lightpink;
+    height: 100%;
+    width: 40%;
+    border: 2px dotted black;
+}
+
+/* section full width */
+.container-full-width{
+    background-color: grey;
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.full-width{
+    width: 80%;
+    background-color: green;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px dotted black;
+}
+
+/* footer */
+footer {
+    height: 600px;
+    background-color: rgb(58, 58, 58);
+}
+
+.top-footer{
+    display: flex;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.footer-social{
+    width: 400px;
+    height: 85%;
+    background-color: pink;
+    border: 2px dotted black;
+}
+
+.footer-contacts {
+    display:flex;
+    width: 100%;
+    height: 85%;
+    background-color: cyan;
+}
+
+.footer-contacts>* {
+    background-color: cyan;
+    width: calc(100% - 400px);
+    border: 2px dotted white;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+/* bottom footer */
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+footer .logo {
+    background-color: pink;
+    padding: 0.5rem 1.3rem;
+    border: 2px dotted black;
+}
