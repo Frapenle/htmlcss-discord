@@ -35,10 +35,6 @@ ul {
     list-style: none;
 }
 
-ul li{
-    cursor: pointer;
-}
-
 ul li a:hover {
     color: #a7b7ec;
 }
@@ -54,15 +50,10 @@ ul li a:hover {
 }
 
 .bg-grey {
-    background-color: rgb(199, 199, 199);
+    background-color: #f6f6f6;
 }
 
 /* button style */
-.button {
-    background-color: grey;
-    padding: 0.5rem 1.3rem;
-}
-
 .btn-white {
     font-weight: 500;
     padding: 0.5rem 1.2rem;
@@ -92,6 +83,7 @@ ul li a:hover {
     color: white;
     cursor: pointer;
 }
+
 /* button hover */
 .btn-white:hover {
     color: #7189DA;
@@ -99,7 +91,7 @@ ul li a:hover {
 
 .btn-black:hover {
     color: #7189DA;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34);https: //github.com/RobertoCartaMantiglia/htmlcss-discord/blob/master/index.html
 }
 
 .btn-light-blue:hover {
@@ -107,7 +99,6 @@ ul li a:hover {
 }
 
 /* /button style */
-
 .container {
     margin: 0 auto;
     max-width: 70%;
@@ -188,7 +179,7 @@ header ul {
 }
 
 /* main */
-main{
+main {
     flex-wrap: wrap;
 }
 
@@ -196,7 +187,7 @@ main{
     padding: 60px 0;
 }
 
-.main-content > div.container{
+.main-content > div.container {
     justify-content: space-between;
 }
 
@@ -206,7 +197,6 @@ main{
 
 /* section full width */
 .container-full-width {
-    background-color: rgb(199, 199, 199);
     padding: 20px 0 80px;
     text-align: center;
 }
@@ -229,7 +219,7 @@ footer {
 
 footer h2,
 footer h2 > a,
-footer h3 > a {
+footer h3 {
     color: #7189DA;
 }
 
